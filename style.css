@@ -17,17 +17,12 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* max-width: 90vw; */
     margin: auto;
-}
-.nav-logo-img{
-    width: 134px;
-    height: 44px;
 }
 .nav-list{
     display: flex;
     list-style: none;
-    gap: 12px;
+    gap: 2rem;
 }
 .nav-list li a{
     text-decoration: none;
@@ -82,6 +77,59 @@ nav{
     border-radius: 14px;
     cursor: pointer;
 }
+/* hero section style end  */
+
+/* speakers section start  */
+.speaker-section{
+    margin: auto;
+}
+.speakers-info{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+.speaker-section-title h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #000102;
+    text-align: center;
+    padding: 4% 0%;
+}
+.speaker-img{
+    width: 100%;
+    height: 100%;          
+    object-fit: cover;
+    display: block;
+}
+.speaker-card{
+    width: 642px;
+    background: #fff;
+    border: 1px solid #E5E7EB;
+    border-radius: 18px;
+    overflow: hidden;
+}
+.speaker-property h5{
+    color: #2563EB;
+    font-weight: 600;
+    font-size: 12px;
+}
+.speaker-property h3{
+    color: #0D1B2A;
+    font-weight: bold;
+    font-size: 20px;
+}
+.speaker-property p{
+    color: #575757;
+    font-size: 14px;
+}
+.speaker-cmn-info{
+    display: grid;
+    gap: 0.6rem;
+    padding: 1.5rem
+}
+
+/* speakers section End  */
 
 /* plan section style */
 .plan{
