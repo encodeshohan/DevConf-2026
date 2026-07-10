@@ -55,7 +55,6 @@ nav{
     justify-items: center;
     align-content: center;
     height: 100vh;
-    grid-template-rows: 1fr 1 fr;
     text-align: center;
     gap: 10rem;
 }
