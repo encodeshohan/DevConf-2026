@@ -1,34 +1,38 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Inter", sans-serif;
 }
 
-.cmn-width{
+.cmn-width {
     max-width: 90vw;
 }
 
 /* nav style start */
-header{
-    padding: 22px 0px ;
+header {
+    padding: 22px 0px;
     background-color: #FFFFFF;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: auto;
 }
-.nav-list{
+
+.nav-list {
     display: flex;
     list-style: none;
     gap: 2rem;
 }
-.nav-list li a{
+
+.nav-list li a {
     text-decoration: none;
     color: #575757;
 }
-.nav-btn{
+
+.nav-btn {
     background-color: #1D4ED8;
     color: #FFFFFF;
     padding: 12px 42px;
@@ -36,10 +40,11 @@ nav{
     border-radius: 12px;
     cursor: pointer;
 }
+
 /* nav style end */
 
 /* hero section style */
-.hero-section{
+.hero-section {
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
         url("./images/banner.jpg");
@@ -54,20 +59,23 @@ nav{
     gap: 10rem;
 }
 
-.top-hero{
+.top-hero {
     display: grid;
     gap: 1rem;
 }
-.top-hero h1{
+
+.top-hero h1 {
     font-size: 3.5rem;
     color: #FFFFFF;
 }
-.top-hero p{
+
+.top-hero p {
     font-size: 1.2rem;
     color: #FFFFFF;
     margin: 0% 25%;
 }
-.bottom-hero button{
+
+.bottom-hero button {
     font-size: 1.5rem;
     font-weight: bold;
     background-color: #1D4ED8;
@@ -77,53 +85,62 @@ nav{
     border-radius: 14px;
     cursor: pointer;
 }
+
 /* hero section style end  */
 
 /* speakers section start  */
-.speaker-section{
+.speaker-section {
     margin: auto;
 }
-.speakers-info{
+
+.speakers-info {
     display: grid;
     align-items: center;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
 }
-.speaker-section-title h1{
+
+.speaker-section-title h1 {
     font-size: 3rem;
     font-weight: bold;
     color: #000102;
     text-align: center;
     padding: 4% 0%;
 }
-.speaker-img{
+
+.speaker-img {
     width: 100%;
-    height: 100%;          
+    height: 100%;
     object-fit: cover;
     display: block;
 }
-.speaker-card{
+
+.speaker-card {
     width: 642px;
     background: #fff;
     border: 1px solid #E5E7EB;
     border-radius: 18px;
     overflow: hidden;
 }
-.speaker-property h5{
+
+.speaker-property h5 {
     color: #2563EB;
     font-weight: 600;
     font-size: 12px;
 }
-.speaker-property h3{
+
+.speaker-property h3 {
     color: #0D1B2A;
     font-weight: bold;
     font-size: 20px;
 }
-.speaker-property p{
+
+.speaker-property p {
     color: #575757;
     font-size: 14px;
 }
-.speaker-cmn-info{
+
+.speaker-cmn-info {
     display: grid;
     gap: 0.6rem;
     padding: 1.5rem
@@ -132,62 +149,75 @@ nav{
 /* speakers section End  */
 
 /* plan section style */
-.plan{
+.plan {
     padding: 4% 6%;
 }
-.plan-top{
+
+.plan-top {
     display: grid;
     grid-gap: 1rem 0rem;
     text-align: center;
     padding: 3% 0%;
 
 }
-.plan-top h1{
+
+.plan-top h1 {
     font-size: 3rem;
     font-weight: bold;
     color: #0D1B2A;
 }
-.plan-top p{
+
+.plan-top p {
     font-size: 1rem;
     color: #0D1B2A;
 }
-.plan-price{
+
+.plan-price {
     display: grid;
     gap: 6px;
 }
-.pro-plan{
+
+.pro-plan {
     background-color: #0D1B2A;
     border: 1px solid #E5E7EB;
     border-radius: 18px;
     min-width: 45vh;
     padding: 2.5% 4%;
 }
-.pro-plan-price{
+
+.pro-plan-price {
     display: grid;
     gap: 6px;
 }
-.pro-plan-price h5{
+
+.pro-plan-price h5 {
     color: #93C5FD;
 }
-.pro-plan-price h1{
+
+.pro-plan-price h1 {
     color: #FFFFFF;
     font-size: 2.5rem;
     font-weight: bold;
 }
-.pro-plan-price p{
+
+.pro-plan-price p {
     color: #FFFFFF;
 }
-.pro-plan-desc{
+
+.pro-plan-desc {
     padding-left: 5%;
 }
-.pro-plan-desc li::marker{
-    color: #1D4ED8;   
+
+.pro-plan-desc li::marker {
+    color: #1D4ED8;
 }
-.pro-plan-desc ul li{
+
+.pro-plan-desc ul li {
     margin-bottom: 1rem;
     color: #FFFFFF;
 }
-.pro-plan-btn button{
+
+.pro-plan-btn button {
     border: none;
     background: #2563EB;
     color: #FFFFFF;
@@ -197,35 +227,44 @@ nav{
     cursor: pointer;
     width: 100%;
 }
-.plan-card{
+
+.plan-card {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.cmn-plan-border{
+
+.cmn-plan-border {
     border: 1px solid #E5E7EB;
     border-radius: 18px;
     min-width: 45vh;
     padding: 2.5% 4%;
 }
-.plan-price h5, .plan-price p{
+
+.plan-price h5,
+.plan-price p {
     color: #888888;
 }
-.plan-price h1{
+
+.plan-price h1 {
     color: #0D1B2A;
     font-size: 2.5rem;
     font-weight: bold;
 }
-.plan-card-hr{
+
+.plan-card-hr {
     color: #E5E7EB;
 }
-.cmn-plan-desc li::marker{
-    color: #1D4ED8;   
+
+.cmn-plan-desc li::marker {
+    color: #1D4ED8;
 }
-.cmn-plan-desc ul li{
+
+.cmn-plan-desc ul li {
     margin-bottom: 1rem;
 }
-.cmn-plan-btn button{
+
+.cmn-plan-btn button {
     border: none;
     background: white;
     color: #2563EB;
@@ -235,50 +274,209 @@ nav{
     cursor: pointer;
     width: 100%;
 }
-.cmn-plan-btn{
+
+.cmn-plan-btn {
     display: flex;
     justify-content: center;
 }
-.cmn-plan-desc{
+
+.cmn-plan-desc {
     padding-left: 5%;
 }
-.plan-card-hr{
+
+.plan-card-hr {
     width: 100%;
     margin: 2rem 0rem;
 }
 /* plan section End */
 
-/* footer style section start*/
-footer{
-    background-color: #0D1B2A;
+
+
+/* ==========================================
+   VENUE SECTION
+========================================== */
+
+/*
+    Full-width section with blue background.
+*/
+.venue {
+    background-color: #1D4ED8;
+    padding: 80px 0;
 }
-.full-footer{
+
+/*
+    Center the content.
+
+    width: 90%
+    max-width: 1200px
+    margin: auto centers the container.
+*/
+.venue-container {
+    width: 90%;
+    max-width: 1200px;
     margin: auto;
 }
-.footer-top{
+
+/*
+    Section Heading
+*/
+.venue-title {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+
+/* ==========================================
+   TWO COLUMN LAYOUT
+========================================== */
+
+/*
+    CSS Grid creates two equal columns.
+
+    Left  -> Images
+    Right -> Map
+*/
+.venue-content {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 40px;
+
+    align-items: stretch;
+}
+
+
+/* ==========================================
+   LEFT COLUMN IMAGE GRID
+========================================== */
+
+/*
+    Another Grid!
+
+    We want:
+
+    [ Image ] [ Image ]
+
+    [    Large Image    ]
+*/
+.venue-images {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 20px;
+}
+
+/*
+    Make every image fill its grid area.
+*/
+.venue-images img {
+
+    width: 100%;
+
+    height: 250px;
+
+    object-fit: cover;
+
+    border: 2px solid #E5E7EB;
+
+    border-radius: 10px;
+}
+
+/*
+    Third image spans BOTH columns.
+
+    Without this,
+    it would stay inside one column.
+*/
+.large-image {
+
+    grid-column: 1 / 3;
+
+    height: 300px;
+}
+
+
+/* ==========================================
+   RIGHT COLUMN MAP
+========================================== */
+
+/*
+    Container around iframe.
+*/
+.venue-map {
+
+    border: 2px solid #E5E7EB;
+
+    border-radius: 12px;
+
+    overflow: hidden;
+
+    /*
+        Elegant professional shadow.
+    */
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.18),
+        0 5px 15px rgba(0, 0, 0, 0.12);
+}
+
+/*
+    Make iframe fill the container.
+*/
+.venue-map iframe {
+
+    width: 100%;
+
+    height: 100%;
+
+    min-height: 570px;
+
+    border: none;
+}
+
+
+/* footer style section start*/
+footer {
+    background-color: #0D1B2A;
+}
+
+.full-footer {
+    margin: auto;
+}
+
+.footer-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1% 0%;
 }
-.footer-top-right ul li a{
+
+.footer-top-right ul li a {
     text-decoration: none;
     color: #1D4ED8;
     font-size: 1.5rem;
 }
-.social-list{
+
+.social-list {
     display: flex;
     list-style: none;
     gap: 8px;
 }
-.footer-hr{
+
+.footer-hr {
     color: #575757;
 }
-.footer-bottom{
+
+.footer-bottom {
     display: flex;
     justify-content: center;
     color: #FFFFFF;
     font-size: 0.8rem;
     padding: 1% 0%;
 }
-
+/* footer section End  */
