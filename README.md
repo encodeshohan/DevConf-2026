@@ -10,11 +10,11 @@ A modern and responsive **DevConf 2026 conference landing page** built with **HT
 
 | Homepage | Speakers |
 |---|---|
-| ![Homepage](./Screenshot/first.jpeg) | ![Speakers](./Screenshot/second.jpeg) |
+| ![Homepage](./Screenshot/1.first.jpegfirst.jpeg) | ![Speakers](./Screenshot/2.second.jpegsecond.jpeg) |
 
 | Pricing | Venue |
 |---|---|
-| ![Pricing](./Screenshot/third.jpeg) | ![Venue](./Screenshot/fourth.jpeg) |
+| ![Pricing](./Screenshot/3.third.jpegthird.jpeg) | ![Venue](./Screenshot/4.fourth.jpeg) |
 
 ## ✨ Features
 
@@ -161,8 +161,8 @@ Through this project, I practiced and improved my understanding of:
 ## 🔗 Relevant Links
 
 * 🌐 [Live Demo](https://encodeshohan.github.io/DevConf-2026/)
-* 💻 [GitHub Repository](https://www.google.com/search?q=https://github.com/encodeshohan/DevConf-2026)
-* 🤖 [Project Prompts](https://www.google.com/search?q=./PROMPTS.md)
+* 💻 [GitHub Repository](https://github.com/encodeshohan/DevConf-2026)
+* 🤖 [Project Prompts](https://github.com/encodeshohan/DevConf-2026/blob/main/PROMPTS.md)
 
 ## 👨‍💻 Author
 
