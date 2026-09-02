@@ -10,11 +10,12 @@ A modern and responsive **DevConf 2026 conference landing page** built with **HT
 
 | Homepage | Speakers |
 |---|---|
-| ![Homepage](./Screenshot/1.first.jpeg) | ![Speakers](./Screenshot/2.second.jpeg) |
+| <img src="./Screenshot/1.first.jpeg" width="400" height="250" alt="Homepage"> | <img src="./Screenshot/2.second.jpeg" width="400" height="250" alt="Speakers"> |
 
 | Pricing | Venue |
 |---|---|
-| ![Pricing](./Screenshot/3.third.jpeg) | ![Venue](./Screenshot/4.fourth.jpeg) |
+| <img src="./Screenshot/3.third.jpeg" width="400" height="250" alt="Pricing"> | <img src="./Screenshot/4.fourth.jpeg" width="400" height="250" alt="Venue"> |
+
 
 ## ✨ Features
 
