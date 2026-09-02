@@ -166,8 +166,6 @@ Through this project, I practiced and improved my understanding of:
 
 ## 👨‍💻 Author
 
-**Sohan**
-
 * GitHub: [@encodeshohan](https://www.google.com/search?q=https://github.com/encodeshohan)
 
 ---
