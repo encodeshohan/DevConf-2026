@@ -173,9 +173,3 @@ Through this project, I practiced and improved my understanding of:
 ---
 
 ⭐ If you like this project, consider giving it a star!
-
-Built with ❤️ using HTML & CSS.
-
-```
-
-```
