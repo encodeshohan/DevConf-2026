@@ -1,50 +1,64 @@
-🚀 DevConf 2026
+# 🚀 DevConf 2026
 
-A modern and responsive DevConf 2026 conference landing page built with pure HTML and CSS. This project presents a fictional developer conference featuring speakers, conference plans, venue information, and a clean, professional user interface.
+A modern and responsive **DevConf 2026 conference landing page** built with **HTML5 and CSS3**. The website presents a developer conference with featured speakers, pricing plans, venue information, and a clean, professional interface.
 
-The project was created as a frontend practice project to strengthen my skills in HTML5, CSS3, responsive layouts, Flexbox, CSS Grid, and UI implementation from a design reference.
+## 🌐 Live Demo
 
-🌐 Live Demo
+🚀 **[View Live Website](https://encodeshohan.github.io/DevConf-2026/)**
 
-🔗 View Live Website
+## 📸 Project Screenshots
 
-📸 Project Preview
+| Homepage | Speakers |
+|---|---|
+| ![Homepage](./Screenshot/first.jpeg) | ![Speakers](./Screenshot/second.jpeg) |
 
-Note: Add a screenshot of your website as images/screenshot.png inside the repository.
+| Pricing | Venue |
+|---|---|
+| ![Pricing](./Screenshot/third.jpeg) | ![Venue](./Screenshot/fourth.jpeg) |
 
-✨ Features
-🎤 Hero Section with conference introduction and registration CTA
-🧭 Navigation Bar with Speakers, Schedule, Tracks, Venue, and Blog links
-👨‍💻 Speaker Section featuring four conference speakers
-💳 Pricing Section with Standard, Pro, and Team plans
-📍 Venue Section with venue images and an embedded Google Map
-📱 Responsive Design for different screen sizes
-🎨 Clean and modern conference-focused UI
-🔗 Social media icons in the footer
-⚡ Lightweight static website with no JavaScript framework
-🔤 Google Fonts integration using the Inter typeface
-⭐ Font Awesome icons for social media
-🛠️ Technologies Used
-HTML5 — Website structure and semantic markup
-CSS3 — Styling, layouts, responsive design, Flexbox and CSS Grid
-Google Fonts — Inter font family
-Font Awesome — Social media icons
-Google Maps Embed — Venue map
-Figma — UI/design reference
-📦 Dependencies
+## ✨ Features
 
-This project does not require any npm packages or external build tools.
+- 🎤 Featured speakers section
+- 💳 Conference pricing plans
+- 📍 Venue and location section
+- 🗺️ Embedded Google Map
+- 📱 Responsive design
+- 🎨 Modern and clean user interface
+- 🔗 Social media links
+- 🔤 Google Fonts integration
+- ⭐ Font Awesome icons
+- 📐 Responsive layouts using CSS Flexbox and Grid
 
-The project uses the following external resources:
+## 🛠️ Technologies Used
 
-Google Fonts – Inter
-Font Awesome 7
-Google Maps Embed
+- **HTML5** — Website structure and semantic markup
+- **CSS3** — Styling and responsive design
+- **CSS Flexbox** — Flexible layouts and alignment
+- **CSS Grid** — Structured page layouts
+- **Google Fonts** — Typography
+- **Font Awesome** — Icons
+- **Google Maps Embed** — Venue location
 
-All other assets, including images and CSS, are stored locally in the repository.
+## 📦 Dependencies
 
-📂 Project Structure
+This is a **static HTML/CSS project**, so there are no npm packages or build tools required.
+
+### External Resources
+
+- Google Fonts
+- Font Awesome
+- Google Maps Embed
+
+## 📂 Project Structure
+
+```text
 DevConf-2026/
+│
+├── Screenshot/
+│   ├── first.jpeg
+│   ├── second.jpeg
+│   ├── third.jpeg
+│   └── fourth.jpeg
 │
 ├── images/
 │   ├── logo.png
@@ -56,103 +70,112 @@ DevConf-2026/
 │   ├── mustafa.png
 │   ├── img1.jpg
 │   ├── img2.jpg
-│   ├── img3.jpg
-│   └── screenshot.png
+│   └── img3.jpg
 │
 ├── index.html
 ├── style.css
 ├── PROMPTS.md
 └── README.md
 
-🚀 Getting Started
+```
 
-Follow these steps to run the project locally.
+## 🚀 Run Locally
 
-1. Clone the repository
-git clone https://github.com/encodeshohan/DevConf-2026.git
+Follow the steps below to run the project on your local machine.
 
-2. Navigate to the project directory
+### 1. Clone the Repository
+
+```bash
+git clone [https://github.com/encodeshohan/DevConf-2026.git](https://github.com/encodeshohan/DevConf-2026.git)
+
+```
+
+### 2. Navigate to the Project Directory
+
+```bash
 cd DevConf-2026
 
-3. Open the project
+```
 
-Since this is a static HTML/CSS project, no package installation is required.
+### 3. Open the Project
 
-You can simply open:
+Since this is a static HTML/CSS project, no dependency installation is required. Simply open the `index.html` file in your browser.
 
-index.html
+> **💡 Recommended:** For a better development experience, use VS Code with the Live Server extension.
+> Right-click `index.html` → **Open with Live Server**.
 
+## 🎯 Main Sections
 
-in your browser.
+### 🧭 Navigation
 
-4. Recommended: Use Live Server
+The navigation bar includes the DevConf 2026 logo, links to the different conference sections, and a **Register Now** button.
 
-For a better development experience, open the project in VS Code and run it using the Live Server extension.
+### 🎤 Speakers
 
-The website will then be available at a local address such as:
+The website features four conference speakers with their names, roles, and respective tracks.
 
-http://127.0.0.1:5500/
+### 💳 Pricing
 
-🎨 Main Sections
-🧭 Navigation
+The conference offers three different pricing plans:
 
-The navigation bar contains the DevConf 2026 logo, links to different conference sections, and a Register Now CTA.
+| Plan | Price | Description |
+| --- | --- | --- |
+| **Standard** | $399 | Standard conference access |
+| **Pro** | $749 | Conference access with additional benefits |
+| **Team** | $5,999 | Team package for up to 10 people |
 
-🎤 Speakers
+### 📍 Venue
 
-The speaker section displays four featured speakers with their respective tracks and professional roles.
+The venue section provides conference location details along with venue images and an embedded Google Map.
 
-💳 Pricing
+### 🦶 Footer
 
-Three conference packages are available:
+The footer contains DevConf branding, social media links, and copyright information.
 
-Plan	Price	Description
-Standard	$399	Conference access and standard benefits
-Pro	$749	Conference access with additional benefits
-Team	$5,999	Team package for up to 10 people
-📍 Venue
+## 📚 What I Learned
 
-The venue section combines conference venue images with an embedded Google Map to provide location information.
+Through this project, I practiced and improved my understanding of:
 
-🦶 Footer
+* Semantic HTML5
+* CSS3
+* Flexbox
+* CSS Grid
+* Responsive web design
+* Image handling
+* UI layout and component organization
+* Embedding Google Maps
+* Using external fonts and icon libraries
+* Git and GitHub
+* Deploying a static website with GitHub Pages
 
-The footer contains the DevConf branding, social media icons, and copyright information.
+## 🔮 Future Improvements
 
-🔗 Important Links
-🌐 Live Website
-💻 GitHub Repository
-🎨 Figma Design: Add your Figma link here if available
-🤖 AI Prompts: See PROMPTS.md
-📚 What I Learned
+* Add JavaScript-based interactions
+* Implement a functional registration system
+* Add a mobile navigation menu
+* Add conference schedule functionality
+* Add animations and micro-interactions
+* Improve accessibility
+* Connect registration forms to a backend
 
-While building this project, I practiced:
+## 🔗 Relevant Links
 
-Structuring a complete webpage with semantic HTML
-Creating responsive layouts with CSS Grid and Flexbox
-Working with background images and overlays
-Designing reusable card layouts
-Building pricing sections
-Embedding external content such as Google Maps
-Using Google Fonts and Font Awesome
-Organizing frontend project files
-Deploying a static website using GitHub Pages
-🚧 Future Improvements
+* 🌐 [Live Demo](https://encodeshohan.github.io/DevConf-2026/)
+* 💻 [GitHub Repository](https://www.google.com/search?q=https://github.com/encodeshohan/DevConf-2026)
+* 🤖 [Project Prompts](https://www.google.com/search?q=./PROMPTS.md)
 
-Some possible improvements for future versions:
+## 👨‍💻 Author
 
-Add JavaScript-based navigation and interactions
-Make the registration buttons functional
-Add a working conference schedule
-Add mobile navigation menu
-Improve accessibility
-Add animations and micro-interactions
-Connect the registration form to a backend
-👨‍💻 Author
+**Sohan**
 
-Sohan
+* GitHub: [@encodeshohan](https://www.google.com/search?q=https://github.com/encodeshohan)
 
-GitHub: @encodeshohan
+---
 
 ⭐ If you like this project, consider giving it a star!
 
-Built with ❤️ using HTML & CSS
+Built with ❤️ using HTML & CSS.
+
+```
+
+```
